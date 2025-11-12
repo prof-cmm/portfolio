@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
     color: #CBCBCB;
     background: #777C6D;
+    padding: 5px;
 }
 
 header {
@@ -15,4 +21,24 @@ span {
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px 10px;
+}
+
+div{
+    border: 10px solid white;
+    padding: 5px;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+}
+
+main{
+    margin-top: 10px;
 }
